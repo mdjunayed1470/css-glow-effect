@@ -14,7 +14,10 @@ body{
 }
 #glow{
     display: flex;
-    gap: 10rem;
+    gap: 8rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
 .glow-content{
     border: 5px solid;
